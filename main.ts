@@ -1,7 +1,7 @@
 enum TemperatureLocation {
-    //%block="Object"
+    //%block="Vật thể"
     Object,
-    //%block="Ambiant"
+    //%block="Môi trường"
     Ambiant
 }
 
@@ -33,7 +33,7 @@ namespace MLX90614 {
         return readTemp(amTempAddr)
     }
 
-    //%block="Temperature %loc"
+    //%block="Nhiệt độ %loc"
     export function temperature(loc: TemperatureLocation): number{
         switch (loc){
             case 0:
