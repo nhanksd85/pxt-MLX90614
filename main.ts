@@ -1,8 +1,8 @@
 enum TemperatureLocation {
     //%block="Vật thể"
-    Object,
+    Thân nhiệt,
     //%block="Môi trường"
-    Ambiant
+    Môi trường
 }
 
 //%color=#F79532 icon="\uf2cb" block="MLX90614"
